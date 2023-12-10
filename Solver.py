@@ -1,22 +1,17 @@
 import random
-from typing import List, Set, Dict
 
-# Part A.1
-# Worst case complexity: O(n)
-# Best case complexity: O(1)
+
 def check_clause(assignment, clause):
     check_clause_result = False
     for i in range(len(clause)):
         pos_in_assignment = abs(clause[i])
         if (clause[i] > 0 and assignment[pos_in_assignment] == 1) or \
-           (clause[i] < 0 and assignment[pos_in_assignment] == -1):
+                (clause[i] < 0 and assignment[pos_in_assignment] == -1):
             check_clause_result = True
             break
     return check_clause_result
 
-# Part A.2
-# Worst case complexity: O(N * L) where N - amount of clauses in database, L - maximum length of clause
-# Best case complexity: O(1) when clauseDatabase is empty - it returns False
+
 def check_clause_database(assignment, clause_database):
     check_clause_db_result = False
     checks = [check_clause(assignment, clause) for clause in clause_database]
@@ -27,9 +22,7 @@ def check_clause_database(assignment, clause_database):
         check_clause_db_result = True
     return check_clause_db_result
 
-# Part A.3
-# Worst case complexity: O(n)
-# Best case complexity: O(1)
+
 def check_clause_partial(partial_assignment, clause):
     check_clause_result = False
     is_there_a_0 = False
@@ -38,7 +31,7 @@ def check_clause_partial(partial_assignment, clause):
     for i in range(len(clause)):
         pos_in_assignment = abs(clause[i])
         if (clause[i] > 0 and partial_assignment[pos_in_assignment] == 1) or \
-           (clause[i] < 0 and partial_assignment[pos_in_assignment] == -1):
+                (clause[i] < 0 and partial_assignment[pos_in_assignment] == -1):
             check_clause_result = True
             break
         elif partial_assignment[pos_in_assignment] == 0:
@@ -48,9 +41,7 @@ def check_clause_partial(partial_assignment, clause):
 
     return 1 if check_clause_result else (0 if is_there_a_0 else -1)
 
-# Part A.4
-# Worst case complexity: O(n)
-# Best case complexity: O(n)
+
 def find_unit(partial_assignment, clause):
     is_break = False
     count_zero = 0
@@ -78,9 +69,14 @@ def find_unit(partial_assignment, clause):
     else:
         return clause[temp_index - 1] if count_zero == 1 else 0
 
-# Part B
+
 def check_sat(clause_database):
-    flips = get_amount_of_flips(len(clause_database), get_number_of_variables(clause_database))
+    flips_var = random.uniform(0.5, 1.0)  # Variable for flips, initial value between 0.5 and 1.0
+    flips = get_amount_of_flips(len(clause_database), get_number_of_variables(clause_database), flips_var)
+
+    decay_factor_var = random.uniform(0.5, 1.0)  # Variable for decay factor, initial value between 0.5 and 1.0
+    decay_factor = decay_factor_var
+
     clauses = [set(clause) for clause in clause_database]
 
     num_variables = get_number_of_variables(clause_database)
@@ -95,10 +91,10 @@ def check_sat(clause_database):
     random.seed()
     for _ in range(flips):
         if check_clause_database(clauses, assignment):
-            return assignment
+            return assignment, {'flips_var': flips_var, 'decay_factor_var': decay_factor_var}
         unsatisfied_clause_index = get_random_unsatisfied_clause_index(clauses, assignment)
-        if random.random() < 0.7:
-            flip_variable = get_next_variable(clauses, assignment, 0.7)
+        if random.random() < flips_var:
+            flip_variable = get_next_variable(clauses, assignment, decay_factor)
             assignment[abs(flip_variable)] *= -1
         else:
             flip_variable = get_most_frequent_variable(clauses[unsatisfied_clause_index], assignment)
@@ -117,11 +113,12 @@ def check_sat(clause_database):
                 assignment[j] = -1
 
     if check_clause_database(clauses, assignment):
-        return assignment
+        return assignment, {'flips_var': flips_var, 'decay_factor_var': decay_factor_var}
     else:
-        return None
+        return None, {'flips_var': flips_var, 'decay_factor_var': decay_factor_var}
 
-def get_amount_of_flips(num_clauses, num_vars):
+
+def get_amount_of_flips(num_clauses, num_vars, flips_var):
     num_flips = 0
     clause_ratio = num_clauses / num_vars
 
@@ -136,16 +133,8 @@ def get_amount_of_flips(num_clauses, num_vars):
     else:
         num_flips = int((num_vars / 6) * 8 ** clause_ratio)
 
-    return num_flips
+    return int(num_flips * flips_var)
 
-def get_most_frequent_variable(variable_occurrences):
-    most_frequent = 0
-    most_frequent_count = 0
-    for variable, count in variable_occurrences.items():
-        if count > most_frequent_count:
-            most_frequent = variable
-            most_frequent_count = count
-    return most_frequent
 
 def count_vars(clause_database):
     variable_occurrences = {}
