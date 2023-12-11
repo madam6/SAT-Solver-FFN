@@ -72,7 +72,7 @@ def find_unit(partial_assignment, clause):
 
 def check_sat(clause_database):
     flips_var = random.uniform(0.5, 1.0)  # Variable for flips, initial value between 0.5 and 1.0
-    flips = get_amount_of_flips(len(clause_database), get_number_of_variables(clause_database), flips_var)
+    flips = random.uniform(1, 50000)
 
     decay_factor_var = random.uniform(0.5, 1.0)  # Variable for decay factor, initial value between 0.5 and 1.0
     decay_factor = decay_factor_var
@@ -89,7 +89,7 @@ def check_sat(clause_database):
     assignment[abs(least_frequent_variable)] = -1
 
     random.seed()
-    for _ in range(flips):
+    for _ in range(int(flips)):
         if check_clause_database(clauses, assignment):
             return assignment, {'flips_var': flips_var, 'decay_factor_var': decay_factor_var}
         unsatisfied_clause_index = get_random_unsatisfied_clause_index(clauses, assignment)
@@ -112,28 +112,12 @@ def check_sat(clause_database):
             elif score < 0:
                 assignment[j] = -1
 
+
+
     if check_clause_database(clauses, assignment):
-        return assignment, {'flips_var': flips_var, 'decay_factor_var': decay_factor_var}
+        return assignment, {'flips_var': flips_var, 'decay_factor_var': decay_factor_var, 'flips' : int(flips)}
     else:
-        return None, {'flips_var': flips_var, 'decay_factor_var': decay_factor_var}
-
-
-def get_amount_of_flips(num_clauses, num_vars, flips_var):
-    num_flips = 0
-    clause_ratio = num_clauses / num_vars
-
-    if clause_ratio < 2.0:
-        num_flips = int((num_vars / 2) * 8 ** clause_ratio)
-    elif clause_ratio < 4.0:
-        num_flips = int((num_vars / 3) * 8 ** clause_ratio)
-    elif clause_ratio < 6.0:
-        num_flips = 8500
-    elif clause_ratio < 8.0:
-        num_flips = 8500
-    else:
-        num_flips = int((num_vars / 6) * 8 ** clause_ratio)
-
-    return int(num_flips * flips_var)
+        return None, {'flips_var': flips_var, 'decay_factor_var': decay_factor_var, 'flips' : int(flips)}
 
 
 def count_vars(clause_database):

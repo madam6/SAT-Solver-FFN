@@ -28,6 +28,6 @@ def generate_tests_and_run_solver(num_tests):
 
 
 # Example usage:
-num_tests_to_generate = 2
+num_tests_to_generate = 1
 
 generate_tests_and_run_solver(num_tests_to_generate)

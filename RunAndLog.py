@@ -1,34 +1,62 @@
-import os
+import unittest
+import time
 import logging
-
-from RunSolver import read_clauses_from_file
 from Solver import check_sat
+from pysat.solvers import Glucose3
 
-# Set up logging
-logging.basicConfig(filename='solver_log.txt', level=logging.INFO)
-
-# Directory where SAT instance files are located
-instance_directory = '.'  # Change this if your instance files are in a different directory
-num_tests = 2  # Change this to the number of test instances
-
-# Loop through each test instance
-for test_index in range(1, num_tests + 1):
-    file_path = f'sat_instance_{test_index}.cnf'
-
-    # Read clauses from file
+logging.basicConfig(filename='solver_test_log.txt', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s: %(message)s')
+def read_clauses_from_file(file_path):
+    clauses = []
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+        for line in lines[1:]:  # Skip the header line
+            clause = list(map(int, line.strip().split()[:-1]))
+            clauses.append(clause)
+    return clauses
 
 
-    generated_clauses = read_clauses_from_file(file_path)
+def solve_with_pysat(clauses):
+    with Glucose3() as solver:
+        for clause in clauses:
+            solver.add_clause(clause)
+        return solver.solve(), solver.get_model()
 
-    # Call your SAT solver with the read clauses
-    result_assignment = check_sat(generated_clauses)
 
-    logging.info(f"Instance: {file_path}")
+class TestSATSolver(unittest.TestCase):
 
-    if result_assignment is not None:
-        logging.info("Solver ran successfully. Variables used:")
-        for variable, value in enumerate(result_assignment):
-            if variable != 0:  # Ignore the 0 index
-                logging.info(f"Variable {variable}: {value}")
-    else:
-        logging.info("Solver failed to find a satisfying assignment.")
+    def run_solver_and_assert(self, file_path):
+        generated_clauses = read_clauses_from_file(file_path)
+
+        # Measure the time taken by the solver
+        start_time = time.time()
+        result_your_solver = check_sat(generated_clauses)
+        elapsed_time = time.time() - start_time
+
+        result_pysat_solver, assignment_pysat = solve_with_pysat(generated_clauses)
+
+        # Log the result and time
+        if result_your_solver is not None:
+            logging.info(f"Assignment for {file_path} succeeded in {elapsed_time:.4f} seconds.")
+        else:
+            logging.error(f"Assignment for {file_path} failed.")
+
+        # Add a separate log for the result of the assignment
+        logging.info(f"Your Solver Result: {result_your_solver}")
+        logging.info(f"PySAT Solver Result: {result_pysat_solver}")
+        logging.info(f"PySAT Solver Assignment: {assignment_pysat}")
+
+        self.assertEqual(result_your_solver is not None, result_pysat_solver)
+
+    def test_solver_on_generated_instances(self):
+        num_tests_to_generate = 5
+
+        for test_index in range(1, num_tests_to_generate + 1):
+            file_path = f'sat_instance_{test_index}.cnf'
+            with self.subTest(file_path=file_path):
+                self.run_solver_and_assert(file_path)
+
+
+if __name__ == '__main__':
+    # Run the tests
+    unittest.main()
