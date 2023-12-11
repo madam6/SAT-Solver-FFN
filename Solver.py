@@ -91,7 +91,7 @@ def check_sat(clause_database):
     random.seed()
     for _ in range(int(flips)):
         if check_clause_database(clauses, assignment):
-            return assignment, {'flips_var': flips_var, 'decay_factor_var': decay_factor_var}
+            return assignment, {'flips_var': flips_var, 'decay_factor_var': decay_factor_var,'flips': int(flips)}
         unsatisfied_clause_index = get_random_unsatisfied_clause_index(clauses, assignment)
         if random.random() < flips_var:
             flip_variable = get_next_variable(clauses, assignment, decay_factor)
@@ -115,9 +115,9 @@ def check_sat(clause_database):
 
 
     if check_clause_database(clauses, assignment):
-        return assignment, {'flips_var': flips_var, 'decay_factor_var': decay_factor_var, 'flips' : int(flips)}
+        return assignment, {'flips_var': flips_var, 'decay_factor_var': decay_factor_var, 'flips': int(flips)}
     else:
-        return None, {'flips_var': flips_var, 'decay_factor_var': decay_factor_var, 'flips' : int(flips)}
+        return None, {'flips_var': flips_var, 'decay_factor_var': decay_factor_var, 'flips': int(flips)}
 
 
 def count_vars(clause_database):

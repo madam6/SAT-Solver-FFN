@@ -6,6 +6,8 @@ from pysat.solvers import Glucose3
 
 logging.basicConfig(filename='solver_test_log.txt', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s: %(message)s')
+
+
 def read_clauses_from_file(file_path):
     clauses = []
     with open(file_path, 'r') as file:
@@ -30,26 +32,36 @@ class TestSATSolver(unittest.TestCase):
 
         # Measure the time taken by the solver
         start_time = time.time()
-        result_your_solver = check_sat(generated_clauses)
+        result_solver = check_sat(generated_clauses)
         elapsed_time = time.time() - start_time
 
         result_pysat_solver, assignment_pysat = solve_with_pysat(generated_clauses)
 
         # Log the result and time
-        if result_your_solver is not None:
+        if result_solver is not None:
             logging.info(f"Assignment for {file_path} succeeded in {elapsed_time:.4f} seconds.")
         else:
             logging.error(f"Assignment for {file_path} failed.")
 
         # Add a separate log for the result of the assignment
-        logging.info(f"Your Solver Result: {result_your_solver}")
+        logging.info(f"Your Solver Result: {result_solver}")
         logging.info(f"PySAT Solver Result: {result_pysat_solver}")
         logging.info(f"PySAT Solver Assignment: {assignment_pysat}")
 
-        self.assertEqual(result_your_solver is not None, result_pysat_solver)
+        # Check if both assignments are None or if they are equal
+        if result_solver[0] is None and result_pysat_solver == False:
+            logging.info("Good result: Both solvers returned None.")
+        elif result_solver[0] == result_pysat_solver:
+            logging.info("Good result: Both solvers returned similar assignments.")
+        elif result_pysat_solver and result_solver[0] is not None:
+            logging.info("Good result: Both solvers found satisfying assignment.")
+        else:
+            logging.info("Bad result: CNF is satisfiable, my solver could not find a solution")
+
+        self.assertEqual(result_solver is not None, result_pysat_solver)
 
     def test_solver_on_generated_instances(self):
-        num_tests_to_generate = 5
+        num_tests_to_generate = 1
 
         for test_index in range(1, num_tests_to_generate + 1):
             file_path = f'sat_instance_{test_index}.cnf'

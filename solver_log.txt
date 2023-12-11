@@ -1,6 +1,0 @@
-INFO:root:Instance: sat_instance_1.cnf
-INFO:root:Solver ran successfully. Variables used:
-INFO:root:Variable 1: {'flips_var': 0.9916230882740045, 'decay_factor_var': 0.7615467334585622}
-INFO:root:Instance: sat_instance_2.cnf
-INFO:root:Solver ran successfully. Variables used:
-INFO:root:Variable 1: {'flips_var': 0.9646664119943988, 'decay_factor_var': 0.9766736202957269}
