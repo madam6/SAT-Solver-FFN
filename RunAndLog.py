@@ -44,7 +44,7 @@ class TestSATSolver(unittest.TestCase):
             logging.error(f"Assignment for {file_path} failed.")
 
         # Add a separate log for the result of the assignment
-        logging.info(f"Your Solver Result: {result_solver}")
+        logging.info(f"My Solver Result: {result_solver}")
         logging.info(f"PySAT Solver Result: {result_pysat_solver}")
         logging.info(f"PySAT Solver Assignment: {assignment_pysat}")
 
@@ -56,12 +56,12 @@ class TestSATSolver(unittest.TestCase):
         elif result_pysat_solver and result_solver[0] is not None:
             logging.info("Good result: Both solvers found satisfying assignment.")
         else:
-            logging.info("Bad result: CNF is satisfiable, my solver could not find a solution")
+            logging.info("Bad result: CNF is satisfiable, my solver could not find a solution.")
 
         self.assertEqual(result_solver is not None, result_pysat_solver)
 
     def test_solver_on_generated_instances(self):
-        num_tests_to_generate = 1
+        num_tests_to_generate = 40
 
         for test_index in range(1, num_tests_to_generate + 1):
             file_path = f'sat_instance_{test_index}.cnf'
