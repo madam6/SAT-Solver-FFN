@@ -1,200 +1,200 @@
-2023-12-11 23:24:02,538 - INFO: Assignment for sat_instance_1.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,538 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1], {'flips_var': 0.7596825340289777, 'decay_factor_var': 0.8363383885595939, 'flips': 38012})
-2023-12-11 23:24:02,538 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,538 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21]
-2023-12-11 23:24:02,540 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,540 - INFO: Assignment for sat_instance_2.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,540 - INFO: My Solver Result: ([0, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1], {'flips_var': 0.7843612770503592, 'decay_factor_var': 0.8303615783575645, 'flips': 44564})
-2023-12-11 23:24:02,540 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,540 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10]
-2023-12-11 23:24:02,540 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,540 - INFO: Assignment for sat_instance_3.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,540 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6953918553321738, 'decay_factor_var': 0.5593059276597738, 'flips': 25652})
-2023-12-11 23:24:02,540 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,540 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21]
-2023-12-11 23:24:02,540 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,541 - INFO: Assignment for sat_instance_4.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,541 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6102531137511342, 'decay_factor_var': 0.6173080061451857, 'flips': 40533})
-2023-12-11 23:24:02,541 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,541 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11]
-2023-12-11 23:24:02,541 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,541 - INFO: Assignment for sat_instance_5.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,541 - INFO: My Solver Result: ([0, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6414803375626995, 'decay_factor_var': 0.696648362858026, 'flips': 1816})
-2023-12-11 23:24:02,541 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,541 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22]
-2023-12-11 23:24:02,541 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,542 - INFO: Assignment for sat_instance_6.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,542 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, 1, -1], {'flips_var': 0.906019021431051, 'decay_factor_var': 0.9266052791907091, 'flips': 19143})
-2023-12-11 23:24:02,542 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,542 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9]
-2023-12-11 23:24:02,542 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,542 - INFO: Assignment for sat_instance_7.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,542 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6536610039596531, 'decay_factor_var': 0.9247518585419146, 'flips': 26042})
-2023-12-11 23:24:02,542 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,542 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22]
-2023-12-11 23:24:02,542 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,543 - INFO: Assignment for sat_instance_8.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,543 - INFO: My Solver Result: ([0, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6109290319570733, 'decay_factor_var': 0.978370006883038, 'flips': 16073})
-2023-12-11 23:24:02,543 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,543 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18]
-2023-12-11 23:24:02,543 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,543 - INFO: Assignment for sat_instance_9.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,543 - INFO: My Solver Result: ([0, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6037625931940567, 'decay_factor_var': 0.8055947323573377, 'flips': 45950})
-2023-12-11 23:24:02,543 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,543 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19]
-2023-12-11 23:24:02,543 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,543 - INFO: Assignment for sat_instance_10.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,543 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.5351405315050639, 'decay_factor_var': 0.9794750317977445, 'flips': 37791})
-2023-12-11 23:24:02,543 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,543 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27]
-2023-12-11 23:24:02,544 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,544 - INFO: Assignment for sat_instance_11.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,544 - INFO: My Solver Result: ([0, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.7409673806986632, 'decay_factor_var': 0.9604482558476374, 'flips': 26400})
-2023-12-11 23:24:02,544 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,544 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16]
-2023-12-11 23:24:02,544 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,544 - INFO: Assignment for sat_instance_12.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,544 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1], {'flips_var': 0.726113313865159, 'decay_factor_var': 0.6548048511123524, 'flips': 7888})
-2023-12-11 23:24:02,544 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,544 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18]
-2023-12-11 23:24:02,545 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,545 - INFO: Assignment for sat_instance_13.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,545 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1], {'flips_var': 0.972818891651624, 'decay_factor_var': 0.5033592744186977, 'flips': 22609})
-2023-12-11 23:24:02,545 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,545 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27]
-2023-12-11 23:24:02,545 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,545 - INFO: Assignment for sat_instance_14.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,547 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6199941147063046, 'decay_factor_var': 0.5102889951519269, 'flips': 12262})
-2023-12-11 23:24:02,547 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,547 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27]
-2023-12-11 23:24:02,547 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,938 - INFO: Assignment for sat_instance_15.cnf succeeded in 0.3918 seconds.
-2023-12-11 23:24:02,938 - INFO: My Solver Result: (None, {'flips_var': 0.600010705829017, 'decay_factor_var': 0.5730470745290025, 'flips': 12757})
-2023-12-11 23:24:02,938 - INFO: PySAT Solver Result: False
-2023-12-11 23:24:02,938 - INFO: PySAT Solver Assignment: None
-2023-12-11 23:24:02,938 - INFO: Good result: Both solvers returned None.
-2023-12-11 23:24:02,938 - INFO: Assignment for sat_instance_16.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,938 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1], {'flips_var': 0.8609465552887587, 'decay_factor_var': 0.9436744792682462, 'flips': 4960})
-2023-12-11 23:24:02,938 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,938 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5]
-2023-12-11 23:24:02,938 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,939 - INFO: Assignment for sat_instance_17.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,939 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.8885027778134518, 'decay_factor_var': 0.5381907192194917, 'flips': 4543})
-2023-12-11 23:24:02,939 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,939 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27]
-2023-12-11 23:24:02,939 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,939 - INFO: Assignment for sat_instance_18.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,939 - INFO: My Solver Result: ([0, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.724179384393407, 'decay_factor_var': 0.678964027374108, 'flips': 33141})
-2023-12-11 23:24:02,939 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,939 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10]
-2023-12-11 23:24:02,939 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,941 - INFO: Assignment for sat_instance_19.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,941 - INFO: My Solver Result: ([0, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.5348593089466136, 'decay_factor_var': 0.607963964003256, 'flips': 42795})
-2023-12-11 23:24:02,941 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,941 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15]
-2023-12-11 23:24:02,941 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,941 - INFO: Assignment for sat_instance_20.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,941 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.8322185555241203, 'decay_factor_var': 0.6373269686915997, 'flips': 28695})
-2023-12-11 23:24:02,941 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,941 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25]
-2023-12-11 23:24:02,941 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,942 - INFO: Assignment for sat_instance_21.cnf succeeded in 0.0011 seconds.
-2023-12-11 23:24:02,942 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1], {'flips_var': 0.9380935142331341, 'decay_factor_var': 0.6148176337762644, 'flips': 13190})
-2023-12-11 23:24:02,942 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,942 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13]
-2023-12-11 23:24:02,942 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:02,942 - INFO: Assignment for sat_instance_22.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:02,942 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.5049114201711979, 'decay_factor_var': 0.5979725529768681, 'flips': 483})
-2023-12-11 23:24:02,942 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:02,942 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23]
-2023-12-11 23:24:02,942 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:03,775 - INFO: Assignment for sat_instance_23.cnf succeeded in 0.8338 seconds.
-2023-12-11 23:24:03,775 - INFO: My Solver Result: (None, {'flips_var': 0.7608430654956775, 'decay_factor_var': 0.60364088293379, 'flips': 16100})
-2023-12-11 23:24:03,775 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:03,775 - INFO: PySAT Solver Assignment: [1, -2, 3, -4]
-2023-12-11 23:24:03,775 - INFO: Bad result: CNF is satisfiable, my solver could not find a solution.
-2023-12-11 23:24:03,777 - INFO: Assignment for sat_instance_24.cnf succeeded in 0.0010 seconds.
-2023-12-11 23:24:03,777 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.9578846345370087, 'decay_factor_var': 0.6625704718147396, 'flips': 47356})
-2023-12-11 23:24:03,777 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:03,777 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29]
-2023-12-11 23:24:03,777 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:03,777 - INFO: Assignment for sat_instance_25.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:03,777 - INFO: My Solver Result: ([0, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.9916360115023324, 'decay_factor_var': 0.996227596804689, 'flips': 25040})
-2023-12-11 23:24:03,777 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:03,777 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15]
-2023-12-11 23:24:03,777 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:04,051 - INFO: Assignment for sat_instance_26.cnf succeeded in 0.2740 seconds.
-2023-12-11 23:24:04,051 - INFO: My Solver Result: (None, {'flips_var': 0.9634687194411338, 'decay_factor_var': 0.9909318560884095, 'flips': 5364})
-2023-12-11 23:24:04,051 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,051 - INFO: PySAT Solver Assignment: [1, -2, 3, -4]
-2023-12-11 23:24:04,051 - INFO: Bad result: CNF is satisfiable, my solver could not find a solution.
-2023-12-11 23:24:04,052 - INFO: Assignment for sat_instance_27.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:04,052 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6178360798833752, 'decay_factor_var': 0.8797716635749355, 'flips': 5696})
-2023-12-11 23:24:04,052 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,052 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29]
-2023-12-11 23:24:04,052 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:04,053 - INFO: Assignment for sat_instance_28.cnf succeeded in 0.0010 seconds.
-2023-12-11 23:24:04,053 - INFO: My Solver Result: ([0, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.9508635512303882, 'decay_factor_var': 0.785112845869928, 'flips': 23293})
-2023-12-11 23:24:04,053 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,053 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13]
-2023-12-11 23:24:04,053 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:04,053 - INFO: Assignment for sat_instance_29.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:04,053 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1], {'flips_var': 0.5255749086320729, 'decay_factor_var': 0.5248204307934965, 'flips': 42595})
-2023-12-11 23:24:04,053 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,053 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25]
-2023-12-11 23:24:04,053 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:04,053 - INFO: Assignment for sat_instance_30.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:04,053 - INFO: My Solver Result: ([0, 1, 1, -1, -1, -1, -1, -1], {'flips_var': 0.5322574256389392, 'decay_factor_var': 0.8921684523825206, 'flips': 15041})
-2023-12-11 23:24:04,053 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,053 - INFO: PySAT Solver Assignment: [1, 2, -3, -4, -5, -6, -7]
-2023-12-11 23:24:04,053 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:04,054 - INFO: Assignment for sat_instance_31.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:04,054 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1], {'flips_var': 0.5143457878737927, 'decay_factor_var': 0.8131958175403449, 'flips': 13701})
-2023-12-11 23:24:04,054 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,054 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18]
-2023-12-11 23:24:04,054 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:04,054 - INFO: Assignment for sat_instance_32.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:04,054 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.9635507170707489, 'decay_factor_var': 0.7367230248681625, 'flips': 15805})
-2023-12-11 23:24:04,054 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,054 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17]
-2023-12-11 23:24:04,054 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:04,054 - INFO: Assignment for sat_instance_33.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:04,054 - INFO: My Solver Result: ([0, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.7178210398481318, 'decay_factor_var': 0.77283291696044, 'flips': 32352})
-2023-12-11 23:24:04,054 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,054 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14]
-2023-12-11 23:24:04,054 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:04,055 - INFO: Assignment for sat_instance_34.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:04,055 - INFO: My Solver Result: ([0, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.578312400756424, 'decay_factor_var': 0.9347639913432012, 'flips': 7989})
-2023-12-11 23:24:04,055 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,055 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13]
-2023-12-11 23:24:04,055 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:04,055 - INFO: Assignment for sat_instance_35.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:04,055 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.5603585018230698, 'decay_factor_var': 0.9848555567500987, 'flips': 1572})
-2023-12-11 23:24:04,055 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,055 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26]
-2023-12-11 23:24:04,055 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:04,057 - INFO: Assignment for sat_instance_36.cnf succeeded in 0.0014 seconds.
-2023-12-11 23:24:04,057 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.5598992792966436, 'decay_factor_var': 0.822346511067275, 'flips': 2673})
-2023-12-11 23:24:04,057 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,057 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22]
-2023-12-11 23:24:04,057 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:04,057 - INFO: Assignment for sat_instance_37.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:04,057 - INFO: My Solver Result: ([0, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.5211978038188944, 'decay_factor_var': 0.8562493197675527, 'flips': 12806})
-2023-12-11 23:24:04,057 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,057 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20]
-2023-12-11 23:24:04,057 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:04,058 - INFO: Assignment for sat_instance_38.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:04,058 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1], {'flips_var': 0.5182553215780876, 'decay_factor_var': 0.642692478029361, 'flips': 21443})
-2023-12-11 23:24:04,058 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,058 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10]
-2023-12-11 23:24:04,058 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:04,058 - INFO: Assignment for sat_instance_39.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:04,058 - INFO: My Solver Result: ([0, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.5528041644327331, 'decay_factor_var': 0.9145401732721525, 'flips': 34571})
-2023-12-11 23:24:04,058 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,058 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27]
-2023-12-11 23:24:04,058 - INFO: Good result: Both solvers found satisfying assignment.
-2023-12-11 23:24:04,058 - INFO: Assignment for sat_instance_40.cnf succeeded in 0.0000 seconds.
-2023-12-11 23:24:04,058 - INFO: My Solver Result: ([0, 1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6299601768902596, 'decay_factor_var': 0.7103177354170462, 'flips': 26129})
-2023-12-11 23:24:04,058 - INFO: PySAT Solver Result: True
-2023-12-11 23:24:04,058 - INFO: PySAT Solver Assignment: [1, -2, -3, -4, -5, -6, -7, -8, -9]
-2023-12-11 23:24:04,058 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,019 - INFO: Assignment for sat_instance_1.cnf succeeded in 0.0080 seconds.
+2024-01-21 17:52:01,019 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.7336776272844177, 'decay_factor_var': 0.6198589933522016, 'flips': 40229})
+2024-01-21 17:52:01,019 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,019 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70, -71, -72, -73, -74, -75, -76, -77, -78, -79, -80, -81, -82, -83, -84, -85, -86, -87, -88, -89, -90, -91, -92, -93, -94, -95, -96]
+2024-01-21 17:52:01,020 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,022 - INFO: Assignment for sat_instance_2.cnf succeeded in 0.0000 seconds.
+2024-01-21 17:52:01,022 - INFO: My Solver Result: ([0, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.5481453799994986, 'decay_factor_var': 0.5485417309435485, 'flips': 17444})
+2024-01-21 17:52:01,022 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,022 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11]
+2024-01-21 17:52:01,022 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,025 - INFO: Assignment for sat_instance_3.cnf succeeded in 0.0020 seconds.
+2024-01-21 17:52:01,025 - INFO: My Solver Result: ([0, 1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1], {'flips_var': 0.9548115277560629, 'decay_factor_var': 0.8939592594823991, 'flips': 5725})
+2024-01-21 17:52:01,026 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,026 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11]
+2024-01-21 17:52:01,026 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,039 - INFO: Assignment for sat_instance_4.cnf succeeded in 0.0080 seconds.
+2024-01-21 17:52:01,039 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.5694826621130881, 'decay_factor_var': 0.6791060451389843, 'flips': 27938})
+2024-01-21 17:52:01,039 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,039 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70, -71, -72, -73, -74, -75, -76, -77, -78, -79, -80, -81, -82, -83, -84, -85, -86]
+2024-01-21 17:52:01,039 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,053 - INFO: Assignment for sat_instance_5.cnf succeeded in 0.0070 seconds.
+2024-01-21 17:52:01,053 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.620898515510822, 'decay_factor_var': 0.936950970500573, 'flips': 43896})
+2024-01-21 17:52:01,053 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,053 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70, -71, -72, -73, -74, -75, -76, -77, -78, -79, -80, -81, -82]
+2024-01-21 17:52:01,053 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,055 - INFO: Assignment for sat_instance_6.cnf succeeded in 0.0010 seconds.
+2024-01-21 17:52:01,055 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, 1, -1, -1], {'flips_var': 0.5580716878104768, 'decay_factor_var': 0.5649946646374499, 'flips': 42438})
+2024-01-21 17:52:01,055 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,055 - INFO: PySAT Solver Assignment: [-1, 2, -3, -4, -5, -6, -7, -8]
+2024-01-21 17:52:01,055 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,069 - INFO: Assignment for sat_instance_7.cnf succeeded in 0.0080 seconds.
+2024-01-21 17:52:01,069 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.9430699259184125, 'decay_factor_var': 0.7064449458781534, 'flips': 30678})
+2024-01-21 17:52:01,069 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,069 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70, -71, -72, -73, -74, -75, -76, -77, -78, -79, -80, -81, -82, -83, -84]
+2024-01-21 17:52:01,069 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,082 - INFO: Assignment for sat_instance_8.cnf succeeded in 0.0075 seconds.
+2024-01-21 17:52:01,082 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.8803496418122949, 'decay_factor_var': 0.7607446227174993, 'flips': 34860})
+2024-01-21 17:52:01,082 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,082 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70, -71, -72, -73, -74, -75, -76, -77]
+2024-01-21 17:52:01,082 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,095 - INFO: Assignment for sat_instance_9.cnf succeeded in 0.0070 seconds.
+2024-01-21 17:52:01,095 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.8064192331666266, 'decay_factor_var': 0.6572472700206633, 'flips': 3259})
+2024-01-21 17:52:01,095 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,095 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70, -71, -72, -73, -74, -75, -76, -77, -78, -79, -80, -81, -82]
+2024-01-21 17:52:01,095 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,098 - INFO: Assignment for sat_instance_10.cnf succeeded in 0.0020 seconds.
+2024-01-21 17:52:01,098 - INFO: My Solver Result: ([0, -1, 1, 1, 1, 1, 1, 1, -1], {'flips_var': 0.7293654568640889, 'decay_factor_var': 0.7406504273396155, 'flips': 14424})
+2024-01-21 17:52:01,098 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,098 - INFO: PySAT Solver Assignment: [1, -2, -3, 4, -5, -6, -7, -8]
+2024-01-21 17:52:01,098 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,100 - INFO: Assignment for sat_instance_11.cnf succeeded in 0.0010 seconds.
+2024-01-21 17:52:01,100 - INFO: My Solver Result: ([0, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.9970752285361335, 'decay_factor_var': 0.6372536202233705, 'flips': 12599})
+2024-01-21 17:52:01,100 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,101 - INFO: PySAT Solver Assignment: [1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12]
+2024-01-21 17:52:01,101 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,109 - INFO: Assignment for sat_instance_12.cnf succeeded in 0.0032 seconds.
+2024-01-21 17:52:01,109 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.7302027007460714, 'decay_factor_var': 0.8942140187572298, 'flips': 47502})
+2024-01-21 17:52:01,109 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,109 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57]
+2024-01-21 17:52:01,109 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,113 - INFO: Assignment for sat_instance_13.cnf succeeded in 0.0021 seconds.
+2024-01-21 17:52:01,113 - INFO: My Solver Result: ([0, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.8633573455826636, 'decay_factor_var': 0.5171955258950605, 'flips': 1181})
+2024-01-21 17:52:01,113 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,113 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20]
+2024-01-21 17:52:01,113 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,122 - INFO: Assignment for sat_instance_14.cnf succeeded in 0.0041 seconds.
+2024-01-21 17:52:01,122 - INFO: My Solver Result: ([0, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.9431833904226836, 'decay_factor_var': 0.80616254243457, 'flips': 20649})
+2024-01-21 17:52:01,122 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,122 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70, -71, -72]
+2024-01-21 17:52:01,122 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,124 - INFO: Assignment for sat_instance_15.cnf succeeded in 0.0010 seconds.
+2024-01-21 17:52:01,124 - INFO: My Solver Result: ([0, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6588300727447216, 'decay_factor_var': 0.5142031067671182, 'flips': 37554})
+2024-01-21 17:52:01,124 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,124 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11]
+2024-01-21 17:52:01,124 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,131 - INFO: Assignment for sat_instance_16.cnf succeeded in 0.0040 seconds.
+2024-01-21 17:52:01,131 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.7031635416825996, 'decay_factor_var': 0.6776762707312081, 'flips': 19701})
+2024-01-21 17:52:01,132 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,132 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51]
+2024-01-21 17:52:01,132 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:01,144 - INFO: Assignment for sat_instance_17.cnf succeeded in 0.0060 seconds.
+2024-01-21 17:52:01,144 - INFO: My Solver Result: ([0, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.9274920339793635, 'decay_factor_var': 0.5889311574035485, 'flips': 31576})
+2024-01-21 17:52:01,144 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:01,144 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70, -71, -72, -73, -74, -75, -76, -77, -78, -79, -80, -81]
+2024-01-21 17:52:01,144 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:07,629 - INFO: Assignment for sat_instance_18.cnf succeeded in 6.4852 seconds.
+2024-01-21 17:52:07,629 - INFO: My Solver Result: (None, {'flips_var': 0.7952417716820424, 'decay_factor_var': 0.6018953078410126, 'flips': 39900})
+2024-01-21 17:52:07,629 - INFO: PySAT Solver Result: False
+2024-01-21 17:52:07,629 - INFO: PySAT Solver Assignment: None
+2024-01-21 17:52:07,629 - INFO: Good result: Both solvers returned None.
+2024-01-21 17:52:07,641 - INFO: Assignment for sat_instance_19.cnf succeeded in 0.0067 seconds.
+2024-01-21 17:52:07,641 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6780936478883197, 'decay_factor_var': 0.8042226768181915, 'flips': 43324})
+2024-01-21 17:52:07,641 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:07,641 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70, -71, -72, -73, -74, -75, -76, -77, -78]
+2024-01-21 17:52:07,641 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:07,654 - INFO: Assignment for sat_instance_20.cnf succeeded in 0.0065 seconds.
+2024-01-21 17:52:07,654 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.8931952725725958, 'decay_factor_var': 0.6224503956112968, 'flips': 37716})
+2024-01-21 17:52:07,654 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:07,654 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70, -71, -72, -73, -74, -75, -76, -77, -78, -79, -80, -81, -82, -83, -84]
+2024-01-21 17:52:07,654 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:07,663 - INFO: Assignment for sat_instance_21.cnf succeeded in 0.0043 seconds.
+2024-01-21 17:52:07,663 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6478596937149965, 'decay_factor_var': 0.625468055030628, 'flips': 679})
+2024-01-21 17:52:07,663 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:07,663 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62]
+2024-01-21 17:52:07,663 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:07,672 - INFO: Assignment for sat_instance_22.cnf succeeded in 0.0047 seconds.
+2024-01-21 17:52:07,672 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.9522031131009115, 'decay_factor_var': 0.8001011047330868, 'flips': 34177})
+2024-01-21 17:52:07,672 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:07,672 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70, -71, -72]
+2024-01-21 17:52:07,672 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:07,682 - INFO: Assignment for sat_instance_23.cnf succeeded in 0.0040 seconds.
+2024-01-21 17:52:07,682 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.786450049683018, 'decay_factor_var': 0.7998710876672885, 'flips': 29971})
+2024-01-21 17:52:07,682 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:07,682 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70]
+2024-01-21 17:52:07,682 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:07,689 - INFO: Assignment for sat_instance_24.cnf succeeded in 0.0030 seconds.
+2024-01-21 17:52:07,689 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.5449071284444307, 'decay_factor_var': 0.5788994725059844, 'flips': 25850})
+2024-01-21 17:52:07,689 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:07,689 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57]
+2024-01-21 17:52:07,689 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:07,697 - INFO: Assignment for sat_instance_25.cnf succeeded in 0.0044 seconds.
+2024-01-21 17:52:07,697 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.7174812476731327, 'decay_factor_var': 0.908724143910161, 'flips': 18557})
+2024-01-21 17:52:07,697 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:07,697 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53]
+2024-01-21 17:52:07,697 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:07,698 - INFO: Assignment for sat_instance_26.cnf succeeded in 0.0000 seconds.
+2024-01-21 17:52:07,700 - INFO: My Solver Result: ([0, -1, -1, 1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6003024363743071, 'decay_factor_var': 0.5571806864856242, 'flips': 12058})
+2024-01-21 17:52:07,700 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:07,700 - INFO: PySAT Solver Assignment: [1, 2, -3, -4, -5, -6, -7, -8, -9]
+2024-01-21 17:52:07,700 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:07,704 - INFO: Assignment for sat_instance_27.cnf succeeded in 0.0023 seconds.
+2024-01-21 17:52:07,704 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.5319961755869616, 'decay_factor_var': 0.9354669107638178, 'flips': 18197})
+2024-01-21 17:52:07,704 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:07,704 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36]
+2024-01-21 17:52:07,704 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:07,717 - INFO: Assignment for sat_instance_28.cnf succeeded in 0.0072 seconds.
+2024-01-21 17:52:07,717 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.7527736685987957, 'decay_factor_var': 0.7170856757520381, 'flips': 21093})
+2024-01-21 17:52:07,717 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:07,717 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70, -71, -72, -73, -74, -75, -76, -77, -78, -79, -80, -81, -82, -83, -84, -85, -86, -87]
+2024-01-21 17:52:07,717 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:07,725 - INFO: Assignment for sat_instance_29.cnf succeeded in 0.0040 seconds.
+2024-01-21 17:52:07,725 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.9549777439130364, 'decay_factor_var': 0.8000910332469697, 'flips': 45178})
+2024-01-21 17:52:07,725 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:07,725 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61]
+2024-01-21 17:52:07,725 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:25,258 - INFO: Assignment for sat_instance_30.cnf succeeded in 17.5308 seconds.
+2024-01-21 17:52:25,258 - INFO: My Solver Result: (None, {'flips_var': 0.5658239490874596, 'decay_factor_var': 0.7366727802481795, 'flips': 25661})
+2024-01-21 17:52:25,258 - INFO: PySAT Solver Result: False
+2024-01-21 17:52:25,258 - INFO: PySAT Solver Assignment: None
+2024-01-21 17:52:25,258 - INFO: Good result: Both solvers returned None.
+2024-01-21 17:52:25,275 - INFO: Assignment for sat_instance_31.cnf succeeded in 0.0100 seconds.
+2024-01-21 17:52:25,275 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.8037378971452239, 'decay_factor_var': 0.8421615985186128, 'flips': 41461})
+2024-01-21 17:52:25,276 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:25,276 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70, -71, -72, -73, -74, -75, -76, -77, -78, -79, -80, -81, -82, -83, -84, -85, -86, -87, -88, -89, -90, -91, -92, -93, -94, -95, -96, -97]
+2024-01-21 17:52:25,276 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:25,283 - INFO: Assignment for sat_instance_32.cnf succeeded in 0.0030 seconds.
+2024-01-21 17:52:25,283 - INFO: My Solver Result: ([0, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6137889536702366, 'decay_factor_var': 0.66889552420982, 'flips': 33141})
+2024-01-21 17:52:25,283 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:25,283 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37]
+2024-01-21 17:52:25,283 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:25,291 - INFO: Assignment for sat_instance_33.cnf succeeded in 0.0041 seconds.
+2024-01-21 17:52:25,291 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.7065256401167658, 'decay_factor_var': 0.9759529323170317, 'flips': 19342})
+2024-01-21 17:52:25,292 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:25,292 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49]
+2024-01-21 17:52:25,292 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:25,303 - INFO: Assignment for sat_instance_34.cnf succeeded in 0.0060 seconds.
+2024-01-21 17:52:25,303 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6062381788300738, 'decay_factor_var': 0.9932880081603548, 'flips': 44333})
+2024-01-21 17:52:25,303 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:25,303 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70]
+2024-01-21 17:52:25,303 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:25,306 - INFO: Assignment for sat_instance_35.cnf succeeded in 0.0020 seconds.
+2024-01-21 17:52:25,306 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.946573952004609, 'decay_factor_var': 0.9064715199916995, 'flips': 34790})
+2024-01-21 17:52:25,306 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:25,306 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18]
+2024-01-21 17:52:25,306 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:25,317 - INFO: Assignment for sat_instance_36.cnf succeeded in 0.0050 seconds.
+2024-01-21 17:52:25,317 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.798438833052434, 'decay_factor_var': 0.9754909048308515, 'flips': 28586})
+2024-01-21 17:52:25,317 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:25,317 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53, -54, -55, -56, -57, -58, -59, -60, -61, -62, -63, -64, -65, -66, -67, -68, -69, -70, -71, -72, -73, -74, -75, -76]
+2024-01-21 17:52:25,317 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:25,325 - INFO: Assignment for sat_instance_37.cnf succeeded in 0.0040 seconds.
+2024-01-21 17:52:25,325 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.9652282952294478, 'decay_factor_var': 0.7356839869238223, 'flips': 38416})
+2024-01-21 17:52:25,325 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:25,325 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47]
+2024-01-21 17:52:25,325 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:25,328 - INFO: Assignment for sat_instance_38.cnf succeeded in 0.0010 seconds.
+2024-01-21 17:52:25,328 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1], {'flips_var': 0.7552249546196838, 'decay_factor_var': 0.5993561975448074, 'flips': 15234})
+2024-01-21 17:52:25,328 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:25,328 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15]
+2024-01-21 17:52:25,328 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:25,335 - INFO: Assignment for sat_instance_39.cnf succeeded in 0.0030 seconds.
+2024-01-21 17:52:25,335 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.6144774806712856, 'decay_factor_var': 0.8918834183803142, 'flips': 18808})
+2024-01-21 17:52:25,335 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:25,335 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44]
+2024-01-21 17:52:25,335 - INFO: Good result: Both solvers found satisfying assignment.
+2024-01-21 17:52:25,339 - INFO: Assignment for sat_instance_40.cnf succeeded in 0.0020 seconds.
+2024-01-21 17:52:25,339 - INFO: My Solver Result: ([0, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], {'flips_var': 0.9159749563942463, 'decay_factor_var': 0.7950362212580593, 'flips': 48157})
+2024-01-21 17:52:25,339 - INFO: PySAT Solver Result: True
+2024-01-21 17:52:25,339 - INFO: PySAT Solver Assignment: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21]
+2024-01-21 17:52:25,339 - INFO: Good result: Both solvers found satisfying assignment.
