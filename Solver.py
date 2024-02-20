@@ -71,10 +71,10 @@ def find_unit(partial_assignment, clause):
 
 
 def check_sat(clause_database):
-    flips_var = random.uniform(0.5, 1.0)  # Variable for flips, initial value between 0.5 and 1.0
-    flips = random.uniform(1, 50000)
+    flips_var = 0.57 #random.uniform(0.5, 1.0)  # Variable for flips, initial value between 0.5 and 1.0
+    flips = 27330 #random.uniform(1, 50000)
 
-    decay_factor_var = random.uniform(0.5, 1.0)  # Variable for decay factor, initial value between 0.5 and 1.0
+    decay_factor_var = 0.95 #random.uniform(0.5, 1.0)  # Variable for decay factor, initial value between 0.5 and 1.0
     decay_factor = decay_factor_var
 
     clauses = [set(clause) for clause in clause_database]

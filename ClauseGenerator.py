@@ -53,7 +53,7 @@ def generate_files(num_files, max_variables, num_clauses, clause_length):
                 file.write(' '.join(map(str, clause)) + ' 0\n')
 
 
-num_files_to_generate = 40
+num_files_to_generate = 400
 max_variables_per_instance = 100
 num_clauses_per_instance = 500
 clause_length_per_instance = 200

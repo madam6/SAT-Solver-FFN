@@ -9,6 +9,15 @@ logging.basicConfig(filename='solver_test_log.txt', level=logging.INFO,
 
 
 def read_clauses_from_file(file_path):
+    """
+       Read clauses from a SAT instance file.
+
+       Args:
+       file_path (str): Path to the SAT instance file.
+
+       Returns:
+       list: List of clauses.
+    """
     clauses = []
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -19,6 +28,15 @@ def read_clauses_from_file(file_path):
 
 
 def solve_with_pysat(clauses):
+    """
+       Solve SAT problem using PySAT.
+
+       Args:
+       clauses (list): List of clauses.
+
+       Returns:
+       tuple: Tuple containing a boolean indicating satisfiability and the model.
+    """
     with Glucose3() as solver:
         for clause in clauses:
             solver.add_clause(clause)
@@ -26,8 +44,16 @@ def solve_with_pysat(clauses):
 
 
 class TestSATSolver(unittest.TestCase):
-
+    """
+        Test class for SAT solver.
+    """
     def run_solver_and_assert(self, file_path):
+        """
+               Run the solver and assert the result.
+
+               Args:
+               file_path (str): Path to the SAT instance file.
+        """
         generated_clauses = read_clauses_from_file(file_path)
 
         # Measure the time taken by the solver
@@ -61,7 +87,7 @@ class TestSATSolver(unittest.TestCase):
         self.assertEqual(result_solver is not None, result_pysat_solver)
 
     def test_solver_on_generated_instances(self):
-        num_tests_to_generate = 40
+        num_tests_to_generate = 400
 
         for test_index in range(1, num_tests_to_generate + 1):
             file_path = f'sat_instance_{test_index}.cnf'
